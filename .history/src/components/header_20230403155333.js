@@ -27,10 +27,7 @@ export const Header = () => {
       <a href="https://www.linkedin.com/in/ethanapratt/" target={"_blank"}>
         <img id="header-socials" className="header-linkedin" src={linkedin} />
       </a>
-      <a
-        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:da99c37f-c24d-3e9b-a6fa-3d40d675b989"
-        target={"_blank"}
-      >
+      <a href="https://ethan-pratt.netlify.app/" target={"_blank"}>
         <img id="header-socials" className="header-resume" src={resume} />
       </a>
 
@@ -41,10 +38,7 @@ export const Header = () => {
         <a href="https://www.linkedin.com/in/ethanapratt/" target={"_blank"}>
           <p className="header-socials-text">LinkedIn</p>
         </a>
-        <a
-          href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:da99c37f-c24d-3e9b-a6fa-3d40d675b989"
-          target={"_blank"}
-        >
+        <a href="https://ethan-pratt.netlify.app/" target={"_blank"}>
           <p className="header-socials-text">Resume</p>
         </a>
       </div>
