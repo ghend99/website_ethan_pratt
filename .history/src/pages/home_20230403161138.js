@@ -1,5 +1,5 @@
 import { Header } from "../components/header.js";
-
+import { Link } from "react-router-dom";
 import "../css/home.css";
 
 export const Home = () => {
@@ -14,7 +14,6 @@ export const Home = () => {
             id="home-socials"
             className="home-github"
             href="https://github.com/ghend99"
-            target={"_blank"}
           >
             <p>Github</p>
           </a>
@@ -31,7 +30,7 @@ export const Home = () => {
           <a
             id="home-socials"
             className="home-resume"
-            href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:da99c37f-c24d-3e9b-a6fa-3d40d675b989"
+            href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:da99c37f-c24d-3e9b-a6fa-3d40d675b9892"
             target="{_blank}"
           >
             <p>Resume</p>
