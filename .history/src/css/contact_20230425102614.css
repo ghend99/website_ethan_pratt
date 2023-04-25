@@ -82,16 +82,13 @@
   border-radius: 3px;
 }
 
-@media screen and (min-width: 0) and (max-width: 1225px) {
-  .contact-header {
+@media screen and (min-width: 0) and (max-width: 1000px) {
+  #contact-form {
     top: 50px;
   }
 }
 
 @media screen and (min-width: 0) and (max-width: 1000px) {
-  #contact-form {
-    top: 50px;
-  }
 }
 
 @media screen and (min-width: 0) and (max-width: 500px) {

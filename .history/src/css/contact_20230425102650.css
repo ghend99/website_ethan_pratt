@@ -82,9 +82,9 @@
   border-radius: 3px;
 }
 
-@media screen and (min-width: 0) and (max-width: 1225px) {
+@media screen and (min-width: 0) and (max-width: 1000px) {
   .contact-header {
-    top: 50px;
+    top: 0;
   }
 }
 
