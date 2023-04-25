@@ -101,23 +101,6 @@
 @media screen and (min-width: 0) and (max-width: 425px) {
   #contact-container {
     position: absolute;
-    left: 50px;
-    top: 150px;
-  }
-
-  .contact-header {
-    position: absolute;
-    top: -10px;
-    min-width: 200px;
-  }
-}
-
-@media screen and (min-width: 0) and (max-width: 425px) {
-  #contact-container {
-    left: 20px;
-  }
-
-  .form-message-input {
-    width: 250px;
+    left: 0;
   }
 }

@@ -118,6 +118,6 @@
   }
 
   .form-message-input {
-    width: 250px;
+    min-width: 100px;
   }
 }

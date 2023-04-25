@@ -114,10 +114,6 @@
 
 @media screen and (min-width: 0) and (max-width: 425px) {
   #contact-container {
-    left: 20px;
-  }
-
-  .form-message-input {
-    width: 250px;
+    left: 50px;
   }
 }
