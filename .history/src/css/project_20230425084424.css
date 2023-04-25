@@ -90,9 +90,9 @@
 }
 
 @media screen and (min-width: 0) and (max-width: 1028px) {
-  /* #project-container {
+  #project-container {
     grid-template-columns: 1fr 1fr 1fr;
-  } */
+  }
 
   /* #single-project {
     height: 50%;
@@ -140,11 +140,7 @@
     font-size: 8px;
   }
 
-  #single-project {
-    min-height: 410px;
-  }
-
-  #project-information {
-    font-size: 12px;
-  }
+  /* #single-project {
+    min-height: 300px;
+  } */
 }

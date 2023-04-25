@@ -49,7 +49,7 @@ export const Project = () => {
               src={school}
               alt="Gif of School Application"
             />
-            <p id="project-stacks-used">Javascript, HTML, CSS</p>
+            <p>Javascript, HTML, CSS</p>
             <p id="project-information">
               Designed for teachers to allow for easier tracking and storage of
               student information.
@@ -74,7 +74,7 @@ export const Project = () => {
           <p className="project-name">Login-Form</p>
           <div id="project-image">
             <img className="image" src={login} alt="Gif of Login-Form" />
-            <p id="project-stacks-used">React, CSS, Firebase</p>
+            <p>React, CSS, Firebase</p>
             <p id="project-information">
               A mobile login page using firebase as the backend, allowing for
               the easy creation of accounts and a method to reset passwords.
@@ -103,7 +103,7 @@ export const Project = () => {
               src={study}
               alt="Gif of Study-Tracker Application"
             />
-            <p id="project-stacks-used">Javascript, HTML, CSS</p>
+            <p>Javascript, HTML, CSS</p>
             <p id="project-information">
               The first project I built that allowed myself to track how long I
               spent studying per day. Focused on DOM, Arrays, and working with a

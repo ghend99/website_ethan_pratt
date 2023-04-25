@@ -157,7 +157,7 @@
   }
 }
 
-@media screen and (min-width: 0) and (max-width: 425px) {
+@media screen and (min-width: 0) and (max-width: 554px) {
   .header-container {
     min-width: 150px;
   }
@@ -168,6 +168,6 @@
   }
 
   .bg {
-    min-width: 170px;
+    min-width: 70px;
   }
 }
