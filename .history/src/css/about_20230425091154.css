@@ -122,23 +122,13 @@
     position: absolute;
     font-size: 24px;
     top: 20px;
-    left: 30px;
   }
 
   .about-paragraph {
     font-size: 14px;
     line-height: 25px;
-    left: 30px;
+    left: 40px;
     min-width: 100px;
     top: 60px;
-  }
-
-  #technology-container {
-    top: 30px;
-    left: 30px;
-  }
-
-  .technology-header {
-    font-size: 24px;
   }
 }

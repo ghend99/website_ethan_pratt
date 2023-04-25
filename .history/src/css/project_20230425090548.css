@@ -127,6 +127,7 @@
 
 @media screen and (min-width: 0) and (max-width: 708px) {
   #projects-container {
+    height: 10%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
