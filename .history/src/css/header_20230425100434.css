@@ -180,19 +180,19 @@
 
   #header-nav {
     min-width: 100px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
-  .header-about {
-    left: 85px;
-  }
+  /* .header-about {
+    left: ;
+  } */
 
   .header-projects {
-    left: 160px;
+    left: 200px;
   }
 
   .header-contact {
     position: absolute;
-    left: 220px;
+    left: 240px;
   }
 }

@@ -180,15 +180,7 @@
 
   #header-nav {
     min-width: 100px;
-    font-size: 12px;
-  }
-
-  .header-about {
-    left: 85px;
-  }
-
-  .header-projects {
-    left: 160px;
+    font-size: 10px;
   }
 
   .header-contact {

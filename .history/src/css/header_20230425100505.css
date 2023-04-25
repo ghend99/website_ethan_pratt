@@ -184,7 +184,7 @@
   }
 
   .header-about {
-    left: 85px;
+    left: 80px;
   }
 
   .header-projects {
@@ -193,6 +193,6 @@
 
   .header-contact {
     position: absolute;
-    left: 220px;
+    left: 240px;
   }
 }
