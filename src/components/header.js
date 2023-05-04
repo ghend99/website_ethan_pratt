@@ -28,7 +28,7 @@ export const Header = () => {
         <img id="header-socials" className="header-linkedin" src={linkedin} />
       </a>
       <a
-        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:da99c37f-c24d-3e9b-a6fa-3d40d675b989"
+        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:0e716eba-f93a-39aa-a298-0bb1b0163f04"
         target={"_blank"}
       >
         <img id="header-socials" className="header-resume" src={resume} />
@@ -42,7 +42,7 @@ export const Header = () => {
           <p className="header-socials-text">LinkedIn</p>
         </a>
         <a
-          href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:da99c37f-c24d-3e9b-a6fa-3d40d675b989"
+          href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:0e716eba-f93a-39aa-a298-0bb1b0163f04"
           target={"_blank"}
         >
           <p className="header-socials-text">Resume</p>

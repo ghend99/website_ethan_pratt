@@ -7,18 +7,16 @@ import resume from "../images/resume.png";
 import menu from "../images/menu.png";
 
 export const Header = () => {
-  const [opacity, setOpacity] = useState(0);
-
   return (
     <div className="header-container">
       <Link className="header-title" to="/">
         Hello World.
       </Link>
-      <Link id="header-nav" className="header-about" to="/about">
-        &lt;About Me&gt;
-      </Link>
       <Link id="header-nav" className="header-projects" to="/projects">
         &lt;Projects&gt;
+      </Link>
+      <Link id="header-nav" className="header-about" to="/about">
+        &lt;About Me&gt;
       </Link>
       <Link id="header-nav" className="header-contact" to="/contact">
         &lt;Contact Me&gt;
@@ -30,21 +28,25 @@ export const Header = () => {
         <img id="header-socials" className="header-linkedin" src={linkedin} />
       </a>
       <a
-        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:74a2b676-94fc-39cd-90a1-4f5be50c7792"
+        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:0e716eba-f93a-39aa-a298-0bb1b0163f04"
         target={"_blank"}
       >
         <img id="header-socials" className="header-resume" src={resume} />
       </a>
 
-      <img
-        className="header-socials-menu"
-        src={menu}
-        onClick={() => setOpacity(1)}
-      />
-      <div className="header-socials-list" style={{ opacity }}>
-        <p>Github</p>
-        <p>LinkedIn</p>
-        <p>Resume</p>
+      <div className="header-socials-list">
+        <a href="https://github.com/ghend99" target={"_blank"}>
+          <p className="header-socials-text">Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/ethanapratt/" target={"_blank"}>
+          <p className="header-socials-text">LinkedIn</p>
+        </a>
+        <a
+          href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:b2a6d833-399a-3a1e-b10f-a08934ce9ea7"
+          target={"_blank"}
+        >
+          <p className="header-socials-text">Resume</p>
+        </a>
       </div>
     </div>
   );
