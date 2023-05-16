@@ -28,7 +28,7 @@ export const Header = () => {
         <img id="header-socials" className="header-linkedin" src={linkedin} />
       </a>
       <a
-        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:d5ccbe91-d2b9-3f84-a412-6f90544b9fa4"
+        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:0e716eba-f93a-39aa-a298-0bb1b0163f04"
         target={"_blank"}
       >
         <img id="header-socials" className="header-resume" src={resume} />
