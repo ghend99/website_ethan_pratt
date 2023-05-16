@@ -15,22 +15,16 @@ export const About = () => {
           <section className="about">
             <h1 className="about-header">Hello There!</h1>
             <p className="about-paragraph">
-              I'm Ethan Pratt, a self-taught front-end developer whose 6 months
+              I'm Ethan Pratt, a self-taught front-end developer who's 6 months
               into their developer journey. In a previous life I trained and
               performed as an actor where I developed a love for collaborative
               work and am now combining that with my passion for all things
               tech. I'm looking to kickstart my career and am open to all junior
               front-end positions. My goal in this journey is to work closely
-              within a team to create the best possible product whilst gorwing
+              within a team to create the best possible product whilst growing
               my understanding of front-end development and learning as many
-              tech-stacks as I can to best level possible.
+              tech-stacks as I can to reach the highest level possible.
             </p>
-            <div className="technology">
-              <p>Javascript</p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>React</p>
-            </div>
           </section>
         </div>
 
