@@ -174,15 +174,9 @@
   }
 }
 
-@media screen and (min-width: 0) and (max-width: 422px) {
+@media screen and (min-width: 0) and (max-width: 576px) {
   #technology-container {
-    top: 140px;
-  }
-}
-
-@media screen and (min-width: 0) and (max-width: 360px) {
-  #technology-container {
-    top: 180px;
+    top: 100px;
   }
 }
 

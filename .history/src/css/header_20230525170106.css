@@ -124,12 +124,6 @@
   transition: all 0.2s;
 }
 
-@media screen and (min-width: 0) and (max-width: 1442px) {
-  .bg {
-    min-height: 709px;
-  }
-}
-
 @media screen and (min-width: 0) and (max-width: 1028px) {
   #header-socials {
     display: none;
