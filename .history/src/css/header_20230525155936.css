@@ -8,9 +8,7 @@
 
 .header-container {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
   flex-direction: row;
   max-width: 100%;
   min-width: 390px;
@@ -36,27 +34,27 @@
   display: flex;
   font-size: clamp(1rem, 4vw, 1.5rem);
   margin: 0;
-  /* margin-right: clamp(20px, 50px, 30px); */
+  margin-right: clamp(20px, 50px, 30px);
   top: 8px;
 }
 
 .header-projects {
-  /* left: clamp(30%, 46.5%, 60%); */
+  left: clamp(30%, 46.5%, 60%);
   text-decoration: none;
   color: black;
 }
 
 .header-about {
   margin: 0;
-  /* margin-left: 50px;
+  margin-left: 50px;
   margin-right: 100px;
-  left: clamp(5px, 24%, 55%); */
+  left: clamp(5px, 24%, 55%);
   text-decoration: none;
   color: black;
 }
 
 .header-contact {
-  /* left: clamp(20%, 65%, 70%); */
+  left: clamp(20%, 65%, 70%);
   text-decoration: none;
   color: black;
 }
@@ -174,14 +172,7 @@
   }
 }
 
-@media screen and (min-width: 0) and (max-width: 380px) {
-  #header-nav {
-    font-size: 14px;
-    column-gap: 50px;
-  }
-}
-
-@media screen and (min-width: 0) and (max-width: 322px) {
+@media screen and (min-width: 0) and (max-width: 320px) {
   .header-title {
     font-size: 14px;
     margin-right: 60px;
@@ -204,6 +195,4 @@
     position: absolute;
     left: 220px;
   }
-
-  #center;
 }

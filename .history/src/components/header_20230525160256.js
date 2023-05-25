@@ -19,17 +19,13 @@ export const Header = () => {
           &lt;Projects&gt;
         </Link>
       </div>
-      <div>
-        <Link id="header-nav" className="header-about" to="/about">
-          &lt;About Me&gt;
-        </Link>
-      </div>
-      <div>
-        <Link id="header-nav" className="header-contact" to="/contact">
-          &lt;Contact Me&gt;
-        </Link>
-      </div>
 
+      <Link id="header-nav" className="header-about" to="/about">
+        &lt;About Me&gt;
+      </Link>
+      <Link id="header-nav" className="header-contact" to="/contact">
+        &lt;Contact Me&gt;
+      </Link>
       <a href="https://github.com/ghend99" target={"_blank"}>
         <img id="header-socials" className="header-github" src={github} />
       </a>
