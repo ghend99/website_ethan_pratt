@@ -170,7 +170,7 @@
   }
 
   .bg {
-    min-width: 200px;
+    min-width: 170px;
   }
 }
 
@@ -203,9 +203,5 @@
   .header-contact {
     position: absolute;
     left: 220px;
-  }
-
-  .bg {
-    min-height: 709px;
   }
 }

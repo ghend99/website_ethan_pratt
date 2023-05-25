@@ -170,7 +170,7 @@
   }
 
   .bg {
-    min-width: 200px;
+    min-width: 170px;
   }
 }
 
@@ -206,6 +206,6 @@
   }
 
   .bg {
-    min-height: 709px;
+    min-height: 300px;
   }
 }
