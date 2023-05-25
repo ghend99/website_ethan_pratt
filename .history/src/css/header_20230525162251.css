@@ -93,8 +93,8 @@
   position: relative;
   max-width: 100%;
   min-width: 350px;
-  /* max-height: 700px; */
-  min-height: 869px;
+  max-height: 700px;
+  min-height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
