@@ -4,7 +4,7 @@
   position: absolute;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 3fr;
+  grid-template-rows: 3fr 3fr;
   max-width: 80%;
   min-width: 70%;
   max-height: 400vh;

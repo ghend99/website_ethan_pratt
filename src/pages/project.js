@@ -12,6 +12,31 @@ export const Project = () => {
     <div className="bg">
       <Header />
       <div id="projects-container">
+        <div id="single-project">
+          <p className="project-name">School App</p>
+          <div id="project-image">
+            <img
+              className="image"
+              src={school}
+              alt="Gif of School Application"
+            />
+            <p id="project-stacks-used">PHP, HTML, CSS, phpMyAdmin</p>
+            <p id="project-information">
+              Database designed for inputting and searching for data inside of a
+              databse.
+            </p>
+          </div>
+          <div className="project-footer">
+            <a href="#" target={"_blank"}>
+              <p className="source-link">N/A</p>
+            </a>
+
+            <a href="#" target={"_blank"}>
+              <p className="source-demo">N/A</p>
+            </a>
+          </div>
+        </div>
+
         {/* Project 4 */}
         <div id="single-project">
           <p className="project-name">News Media Website</p>
