@@ -20,7 +20,7 @@ export const Project = () => {
             <p id="project-stacks-used">PHP, HTML, CSS, phpMyAdmin</p>
             <p id="project-information">
               Database designed for inputting and searching for data inside of a
-              databse. Still under construction.
+              databse.
             </p>
           </div>
           <div className="project-footer">

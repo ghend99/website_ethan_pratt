@@ -16,11 +16,15 @@ export const Project = () => {
         <div id="single-project">
           <p className="project-name">School App</p>
           <div id="project-image">
-            <img className="image" src={lotrdb} alt="Gif of LOTR databse" />
+            <img
+              className="image"
+              src={lotrdb}
+              alt="Gif of School Application"
+            />
             <p id="project-stacks-used">PHP, HTML, CSS, phpMyAdmin</p>
             <p id="project-information">
               Database designed for inputting and searching for data inside of a
-              databse. Still under construction.
+              databse.
             </p>
           </div>
           <div className="project-footer">
