@@ -9,7 +9,7 @@ export const Home = () => {
         <Header />
         <div id="center-container">
           <p className="home-name">Ethan Pratt</p>
-          <p className="home-job-title">Junior Front-End Developer</p>
+          <p className="home-job-title">Junior Full-Stack Developer</p>
 
           <div id="home-socials-container">
             <a
@@ -29,11 +29,10 @@ export const Home = () => {
             >
               <p>LinkedIn</p>
             </a>
-
             <a
               id="home-socials"
               className="home-resume"
-              href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:da99c37f-c24d-3e9b-a6fa-3d40d675b989"
+              href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:d93e7d11-55fc-32a3-ba0c-10f2114d1d69"
               target="{_blank}"
             >
               <p>Resume</p>

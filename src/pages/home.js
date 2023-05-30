@@ -9,7 +9,7 @@ export const Home = () => {
         <Header />
         <div id="center-container">
           <p className="home-name">Ethan Pratt</p>
-          <p className="home-job-title">Junior Front-End Developer</p>
+          <p className="home-job-title">Junior Full-Stack Developer</p>
 
           <div id="home-socials-container">
             <a
