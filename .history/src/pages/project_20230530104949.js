@@ -14,13 +14,13 @@ export const Project = () => {
       <Header />
       <div id="projects-container">
         <div id="single-project">
-          <p className="project-name">The Lord of the Rings Databse</p>
+          <p className="project-name">School App</p>
           <div id="project-image">
             <img className="image" src={lotrdb} alt="Gif of LOTR databse" />
             <p id="project-stacks-used">PHP, HTML, CSS, phpMyAdmin</p>
             <p id="project-information">
               Database designed for inputting and searching for data inside of a
-              databse. Still under construction.
+              databse.
             </p>
           </div>
           <div className="project-footer">
@@ -112,6 +112,36 @@ export const Project = () => {
               href="https://soft-cascaron-067620.netlify.app/"
               target={"_blank"}
             >
+              <p className="source-demo">Live Demo</p>
+            </a>
+          </div>
+        </div>
+
+        {/* Project 3 */}
+        <div id="single-project">
+          <p className="project-name">Study-Tracker</p>
+          <div id="project-image">
+            <img
+              className="image"
+              src={study}
+              alt="Gif of Study-Tracker Application"
+            />
+            <p id="project-stacks-used">Javascript, HTML, CSS</p>
+            <p id="project-information">
+              The first project I built that allowed myself to track how long I
+              spent studying per day. Focused on DOM, Arrays, and working with a
+              dynamic CSS
+            </p>
+          </div>
+          <div className="project-footer">
+            <a
+              href="https://github.com/ghend99/study-tracker"
+              target={"_blank"}
+            >
+              <p className="source-link">Source Code</p>
+            </a>
+
+            <a href="https://shiny-druid-eadd68.netlify.app/" target={"_blank"}>
               <p className="source-demo">Live Demo</p>
             </a>
           </div>

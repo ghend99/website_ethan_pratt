@@ -218,7 +218,7 @@
     left: 220px;
   }
 
-  .bg::before {
-    height: 1279px;
+  .bg {
+    min-height: 709px;
   }
 }

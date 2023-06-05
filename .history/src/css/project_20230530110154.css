@@ -12,7 +12,7 @@
   /* background-color: blue; */
   /* opacity: 0.7; */
   left: 10%;
-  top: 100px;
+  top: 40%;
 }
 
 #single-project {
@@ -142,7 +142,7 @@
   }
 
   #single-project {
-    min-height: 300px;
+    min-height: 410px;
   }
 
   #project-information {

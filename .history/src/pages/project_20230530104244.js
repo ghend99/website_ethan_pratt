@@ -6,34 +6,12 @@ import login from "../images/logingif.gif";
 import study from "../images/studygif.gif";
 import guardian from "../images/guardiangif.gif";
 import news from "../images/newsgif.gif";
-import lotrdb from "../images/lotrgif.gif";
 
 export const Project = () => {
   return (
     <div className="bg">
       <Header />
       <div id="projects-container">
-        <div id="single-project">
-          <p className="project-name">The Lord of the Rings Databse</p>
-          <div id="project-image">
-            <img className="image" src={lotrdb} alt="Gif of LOTR databse" />
-            <p id="project-stacks-used">PHP, HTML, CSS, phpMyAdmin</p>
-            <p id="project-information">
-              Database designed for inputting and searching for data inside of a
-              databse. Still under construction.
-            </p>
-          </div>
-          <div className="project-footer">
-            <a href="#" target={"_blank"}>
-              <p className="source-link">N/A</p>
-            </a>
-
-            <a href="#" target={"_blank"}>
-              <p className="source-demo">N/A</p>
-            </a>
-          </div>
-        </div>
-
         {/* Project 4 */}
         <div id="single-project">
           <p className="project-name">News Media Website</p>
@@ -56,6 +34,34 @@ export const Project = () => {
 
             <a
               href="https://bespoke-truffle-841455.netlify.app/"
+              target={"_blank"}
+            >
+              <p className="source-demo">Live Demo</p>
+            </a>
+          </div>
+        </div>
+
+        <div id="single-project">
+          <p className="project-name">School App</p>
+          <div id="project-image">
+            <img
+              className="image"
+              src={school}
+              alt="Gif of School Application"
+            />
+            <p id="project-stacks-used">Javascript, HTML, CSS</p>
+            <p id="project-information">
+              Designed for teachers to allow for easier tracking and storage of
+              student information.
+            </p>
+          </div>
+          <div className="project-footer">
+            <a href="https://github.com/ghend99/School-app" target={"_blank"}>
+              <p className="source-link">Source Code</p>
+            </a>
+
+            <a
+              href="https://gentle-unicorn-cf6c09.netlify.app/"
               target={"_blank"}
             >
               <p className="source-demo">Live Demo</p>
@@ -112,6 +118,36 @@ export const Project = () => {
               href="https://soft-cascaron-067620.netlify.app/"
               target={"_blank"}
             >
+              <p className="source-demo">Live Demo</p>
+            </a>
+          </div>
+        </div>
+
+        {/* Project 3 */}
+        <div id="single-project">
+          <p className="project-name">Study-Tracker</p>
+          <div id="project-image">
+            <img
+              className="image"
+              src={study}
+              alt="Gif of Study-Tracker Application"
+            />
+            <p id="project-stacks-used">Javascript, HTML, CSS</p>
+            <p id="project-information">
+              The first project I built that allowed myself to track how long I
+              spent studying per day. Focused on DOM, Arrays, and working with a
+              dynamic CSS
+            </p>
+          </div>
+          <div className="project-footer">
+            <a
+              href="https://github.com/ghend99/study-tracker"
+              target={"_blank"}
+            >
+              <p className="source-link">Source Code</p>
+            </a>
+
+            <a href="https://shiny-druid-eadd68.netlify.app/" target={"_blank"}>
               <p className="source-demo">Live Demo</p>
             </a>
           </div>

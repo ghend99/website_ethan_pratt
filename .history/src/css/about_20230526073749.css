@@ -100,10 +100,6 @@
   #technology-container {
     top: 130px;
   }
-
-  .bg {
-    min-height: 1170px;
-  }
 }
 
 @media screen and (min-width: 0) and (max-width: 1226px) {
