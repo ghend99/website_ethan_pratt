@@ -9,18 +9,27 @@ import menu from "../images/menu.png";
 export const Header = () => {
   return (
     <div className="header-container">
-      <Link className="header-title" to="/">
-        Hello World.
-      </Link>
-      <Link id="header-nav" className="header-projects" to="/projects">
-        &lt;Projects&gt;
-      </Link>
-      <Link id="header-nav" className="header-about" to="/about">
-        &lt;About Me&gt;
-      </Link>
-      <Link id="header-nav" className="header-contact" to="/contact">
-        &lt;Contact Me&gt;
-      </Link>
+      <div>
+        <Link className="header-title" to="/">
+          Hello World.
+        </Link>
+      </div>
+      <div>
+        <Link id="header-nav" className="header-projects" to="/projects">
+          &lt;Projects&gt;
+        </Link>
+      </div>
+      <div>
+        <Link id="header-nav" className="header-about" to="/about">
+          &lt;About Me&gt;
+        </Link>
+      </div>
+      <div>
+        <Link id="header-nav" className="header-contact" to="/contact">
+          &lt;Contact Me&gt;
+        </Link>
+      </div>
+
       <a href="https://github.com/ghend99" target={"_blank"}>
         <img id="header-socials" className="header-github" src={github} />
       </a>
@@ -28,7 +37,7 @@ export const Header = () => {
         <img id="header-socials" className="header-linkedin" src={linkedin} />
       </a>
       <a
-        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:0e716eba-f93a-39aa-a298-0bb1b0163f04"
+        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:df9c77ff-9691-38fd-b9f0-fb9a4c6d038e"
         target={"_blank"}
       >
         <img id="header-socials" className="header-resume" src={resume} />
@@ -42,7 +51,7 @@ export const Header = () => {
           <p className="header-socials-text">LinkedIn</p>
         </a>
         <a
-          href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:0e716eba-f93a-39aa-a298-0bb1b0163f04"
+          href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:d93e7d11-55fc-32a3-ba0c-10f2114d1d69"
           target={"_blank"}
         >
           <p className="header-socials-text">Resume</p>
