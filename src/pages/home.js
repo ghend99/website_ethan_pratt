@@ -32,7 +32,7 @@ export const Home = () => {
             <a
               id="home-socials"
               className="home-resume"
-              href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:d93e7d11-55fc-32a3-ba0c-10f2114d1d69"
+              href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:df9c77ff-9691-38fd-b9f0-fb9a4c6d038e"
               target="{_blank}"
             >
               <p>Resume</p>
